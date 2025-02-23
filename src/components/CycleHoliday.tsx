@@ -28,10 +28,10 @@ export function CycleHoliday(): React.JSX.Element {
         <div>
             <div>
                 <Button
-                    onClick={() => setHoliday(HOLIDAYS_BY_ALPHABET[holiday])}>
+                    onClick={() => {setHoliday(HOLIDAYS_BY_ALPHABET[holiday])}}>
                     Alphabet
                 </Button>
-                <Button onClick={() => setHoliday(HOLIDAYS_BY_YEAR[holiday])}>
+                <Button onClick={() => {setHoliday(HOLIDAYS_BY_YEAR[holiday])}}>
                     Year
                 </Button>
             </div>

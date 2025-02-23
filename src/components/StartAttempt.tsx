@@ -11,21 +11,21 @@ export function StartAttempt(): React.JSX.Element {
             <div>
                 <Button
                     onClick={() => {
-                        setAttempts(attempts - 1);
-                        setProgress(!progress);
+                        {setAttempts(attempts - 1)};
+                        {setProgress(!progress)};
                     }}
                     disabled={progress || attempts === 0}
                 >
                     Start Quiz
                 </Button>
                 <Button
-                    onClick={() => setAttempts(attempts + 1)}
+                    onClick={() => {setAttempts(attempts + 1)}}
                     disabled={progress}
                 >
                     Mulligan
                 </Button>
                 <Button
-                    onClick={() => setProgress(!progress)}
+                    onClick={() => {setProgress(!progress)}}
                     disabled={!progress}
                 >
                     Stop Quiz
