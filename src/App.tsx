@@ -19,11 +19,11 @@ function App(): React.JSX.Element {
             </header>
             <hr></hr>
             <DoubleHalf></DoubleHalf>
-            {/* <hr></hr>
+            <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
             <ColoredBox></ColoredBox>
-            <hr></hr>
+            {/* <hr></hr>
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
