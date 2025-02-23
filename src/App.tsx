@@ -23,8 +23,8 @@ function App(): JSX.Element {
             <TwoDice></TwoDice>
             <hr />
             <ChangeType></ChangeType>
-            {/* <hr />
-            <CycleHoliday></CycleHoliday> */}
+            <hr />
+            <CycleHoliday></CycleHoliday>
         </div>
     );
 }
