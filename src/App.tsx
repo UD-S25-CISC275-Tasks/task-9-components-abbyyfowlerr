@@ -18,8 +18,8 @@ function App(): React.JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
-            <hr></hr>
+            <DoubleHalf></DoubleHalf>
+            {/* <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
             <ColoredBox></ColoredBox>
@@ -36,7 +36,7 @@ function App(): React.JSX.Element {
             <hr />
             <ChangeType></ChangeType>
             <hr />
-            <CycleHoliday></CycleHoliday>
+            <CycleHoliday></CycleHoliday> */}
         </div>
     );
 }
