@@ -19,8 +19,8 @@ function App(): JSX.Element {
             <RevealAnswer></RevealAnswer>
             <hr />
             <StartAttempt></StartAttempt>
-            {/* <hr />
-            <TwoDice></TwoDice> */}
+            <hr />
+            <TwoDice></TwoDice>
             <hr />
             <ChangeType></ChangeType>
             {/* <hr />
