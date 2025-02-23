@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 
 type Holiday = '🎄' | '🎃' | "💌" | '🦃' | '🥮';
 
-export function CycleHoliday(): JSX.Element {
+export function CycleHoliday(): React.JSX.Element {
     const [holiday, setHoliday] = useState<Holiday>("🦃");
 
     const HOLIDAYS_BY_YEAR: Record<Holiday, Holiday> = {
