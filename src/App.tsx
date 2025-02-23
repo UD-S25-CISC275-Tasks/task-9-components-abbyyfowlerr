@@ -15,15 +15,15 @@ function App(): JSX.Element {
             </header>
             <hr></hr>
             <Counter></Counter>
-            {/* <hr />
+            <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
             <StartAttempt></StartAttempt>
-            <hr />
-            <TwoDice></TwoDice>
+            {/* <hr />
+            <TwoDice></TwoDice> */}
             <hr />
             <ChangeType></ChangeType>
-            <hr />
+            {/* <hr />
             <CycleHoliday></CycleHoliday> */}
         </div>
     );
