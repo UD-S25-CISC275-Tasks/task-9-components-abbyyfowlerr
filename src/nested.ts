@@ -8,7 +8,7 @@ import { Question, QuestionType } from "./interfaces/question";
 export function getPublishedQuestions(questions: Question[]): Question[] {
     const publishedMovies = questions.filter(
         (question: Question): boolean => (question.published)
-    )
+    );
     return publishedMovies;
 }
 
@@ -18,7 +18,11 @@ export function getPublishedQuestions(questions: Question[]): Question[] {
  * `expected`, and an empty array for its `options`.
  */
 export function getNonEmptyQuestions(questions: Question[]): Question[] {
-    return [];
+    const nonEmpty = questions.filter(
+        (question: Question): boolean => (question.body === "" && question.expected === ""
+            && question.options.length === 0)
+        );
+    return nonEmpty;
 }
 
 /***
@@ -29,7 +33,11 @@ export function findQuestion(
     questions: Question[],
     id: number
 ): Question | null {
-    return null;
+    const findQuestion = questions.find((question: Question) => question.id === id) 
+    if (findQuestion === undefined) {
+        return null;
+    }
+    return findQuestion;
 }
 
 /**
@@ -37,7 +45,10 @@ export function findQuestion(
  * with the given `id`.
  */
 export function removeQuestion(questions: Question[], id: number): Question[] {
-    return [];
+    const removed = questions.filter(
+        (question: Question): boolean => question.id != id
+    );
+    return removed;
 }
 
 /***
@@ -45,14 +56,19 @@ export function removeQuestion(questions: Question[], id: number): Question[] {
  * questions, as an array.
  */
 export function getNames(questions: Question[]): string[] {
-    return [];
+    const names = questions.map(
+        (question: Question): string => question.name);
+    return names;
 }
 
 /***
  * Consumes an array of questions and returns the sum total of all their points added together.
  */
 export function sumPoints(questions: Question[]): number {
-    return 0;
+    const points = questions.reduce(
+        (currSum: number, question: Question): number => currSum + question.points, 0
+    );
+    return points;
 }
 
 /***
