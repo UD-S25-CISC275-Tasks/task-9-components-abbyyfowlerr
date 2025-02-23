@@ -1,4 +1,4 @@
-import React, { act } from "@testing-library/react";
+import React, { act } from "react";
 import { render, screen } from "@testing-library/react";
 import { CycleHoliday } from "./CycleHoliday";
 
