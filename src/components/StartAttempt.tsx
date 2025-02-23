@@ -11,8 +11,8 @@ export function StartAttempt(): React.JSX.Element {
             <div>
                 <Button
                     onClick={() => {
-                        {setAttempts(attempts - 1)};
-                        {setProgress(!progress)};
+                        {setAttempts(attempts - 1)}
+                        {setProgress(!progress)}
                     }}
                     disabled={progress || attempts === 0}
                 >
