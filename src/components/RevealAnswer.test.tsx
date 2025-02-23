@@ -1,4 +1,4 @@
-import React, { act } from "react";
+import React, { act } from "@testing-library/react";
 import { render, screen } from "@testing-library/react";
 import { RevealAnswer } from "./RevealAnswer";
 

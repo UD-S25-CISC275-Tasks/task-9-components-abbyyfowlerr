@@ -1,4 +1,4 @@
-import React, { act } from "react";
+import React, { act } from "@testing-library/react";
 import { render, screen, cleanup } from "@testing-library/react";
 import { StartAttempt } from "./StartAttempt";
 

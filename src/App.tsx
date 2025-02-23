@@ -15,7 +15,7 @@ function App(): JSX.Element {
             </header>
             <hr></hr>
             <Counter></Counter>
-            <hr />
+            {/* <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
             <StartAttempt></StartAttempt>
@@ -24,7 +24,7 @@ function App(): JSX.Element {
             <hr />
             <ChangeType></ChangeType>
             <hr />
-            <CycleHoliday></CycleHoliday>
+            <CycleHoliday></CycleHoliday> */}
         </div>
     );
 }

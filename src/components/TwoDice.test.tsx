@@ -1,4 +1,4 @@
-import React, { act } from "react";
+import React, { act } from "@testing-library/react";
 import { render, screen } from "@testing-library/react";
 import { TwoDice } from "./TwoDice";
 import { extractDigits } from "./StartAttempt.test";
