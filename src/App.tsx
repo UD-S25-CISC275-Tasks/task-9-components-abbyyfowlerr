@@ -23,9 +23,9 @@ function App(): React.JSX.Element {
             <ChooseTeam></ChooseTeam>
             <hr></hr>
             <ColoredBox></ColoredBox>
-            {/* <hr></hr>
-            <ShoveBox></ShoveBox>
             <hr></hr>
+            <ShoveBox></ShoveBox>
+            {/* <hr></hr>
             <Counter></Counter>
             <hr />
             <RevealAnswer></RevealAnswer>

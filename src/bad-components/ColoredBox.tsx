@@ -5,7 +5,7 @@ export const COLORS = ["red", "blue", "green"];
 const DEFAULT_COLOR_INDEX = 0;
 
 function ChangeColor({colorIndex, setColorIndex}: {
-    colorIndex:number; 
+    colorIndex: number; 
     setColorIndex: (newColorIndex: number) => void
 }): React.JSX.Element {
     return (
