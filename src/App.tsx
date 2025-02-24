@@ -25,7 +25,7 @@ function App(): React.JSX.Element {
             <ColoredBox></ColoredBox>
             <hr></hr>
             <ShoveBox></ShoveBox>
-            {/* <hr></hr>
+            <hr></hr>
             <Counter></Counter>
             <hr />
             <RevealAnswer></RevealAnswer>
@@ -36,7 +36,7 @@ function App(): React.JSX.Element {
             <hr />
             <ChangeType></ChangeType>
             <hr />
-            <CycleHoliday></CycleHoliday> */}
+            <CycleHoliday></CycleHoliday>
         </div>
     );
 }
